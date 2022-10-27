@@ -8,6 +8,8 @@ authors = ["mindoolla1289 <mindoolla1289@gmail.com>"]
 python = "^3.10"
 fastapi = "^0.85.1"
 uvicorn = "^0.19.0"
+aerich = "^0.7.1"
+tortoise-orm = {extras = ["asyncpg"], version = "^0.19.2"}
 
 [tool.poetry.dev-dependencies]
 
